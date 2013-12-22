@@ -33,12 +33,12 @@ docpadConfig = {
 
 			# The website's styles
 			styles: [
-				'/styles/screen.css'
+				'styles/screen.css'
 			]
 
 			# The website's scripts
 			scripts: [
-				'/vendor/modernizr.js'
+				'vendor/modernizr.js'
 			]
 
 
