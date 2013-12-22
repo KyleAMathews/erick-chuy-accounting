@@ -5,7 +5,7 @@ title: 'Welcome to Erick Chuy Tax Services'
 
 ### We're so happy to see you
 
-![Erick Chuy](erick-chuy.jpg "Erick Chuy")
+![Erick Chuy](/erick-chuy-accounting/erick-chuy.jpg "Erick Chuy")
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit
 amet eleifend massa. Phasellus at interdum erat. Nulla a nulla nibh.

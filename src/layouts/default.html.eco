@@ -34,10 +34,10 @@
   </div>
   <div class="tabs">
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="about-erick">About Erick</a></li>
-      <li><a href="services">Services</a></li>
-      <li><a href="contact">Contact</a></li>
+      <li><a href="/erick-chuy-accounting">Home</a></li>
+      <li><a href="/erick-chuy-accounting/about-erick">About Erick</a></li>
+      <li><a href="/erick-chuy-accounting/services">Services</a></li>
+      <li><a href="/erick-chuy-accounting/contact">Contact</a></li>
     </ul>
   </div>
   <div class="title-wrapper">

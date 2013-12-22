@@ -5,7 +5,7 @@ title: 'About Erick Chuy'
 
 ### Erick Chuy is so awesome
 
-![Erick Chuy](erick-chuy.jpg "Erick Chuy")
+![Erick Chuy](/erick-chuy-accounting/erick-chuy.jpg "Erick Chuy")
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit
 amet eleifend massa. Phasellus at interdum erat. Nulla a nulla nibh.
