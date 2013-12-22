@@ -1,0 +1,50 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+@import compass/css3
+@import CSS:../../../bower_components/normalize-css/normalize
+@import base
+@import typography
+@import layout
+
+html
+  // Ensure vertical scrollbar always there so no annoying jumps.
+  overflow-y: scroll
+
+.header-wrapper
+  +box-shadow(inset 0 3px 6px lightgrey)
+  +leading-border(3px, 0.5)
+  +trailing-border(1px, 0.5)
+  background: grey(98)
+  border-bottom-color: brown
+  border-top-color: grey(26)
+
+  h1
+    margin: 0
+    padding: 0
+
+.tabs
+  padding: rhythm(0.5)
+  ul
+    +horizontal-list
+    li
+      +adjust-font-size-to(16px)
+      font-weight: bold
+      margin-right: rhythm(1, 16px)
+      a
+        +link-colors(grey(40))
+
+.title-wrapper
+  +leading-border(1px, 1)
+  border-color: brown
+
+  h2
+    margin: 0
+    margin-bottom: rhythm(-0.5)
+
+img
+  float: right
+  padding-left: rhythm(1)
+  padding-bottom: rhythm(1)

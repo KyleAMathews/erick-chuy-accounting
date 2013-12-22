@@ -1,0 +1,116 @@
+@import compass/typography
+
+// Typography defaults
+$base-font-size: 14px
+$base-line-height: $base-font-size * 1.5
+
++establish-baseline
+
+body
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif
+  color: grey(30)
+
+a
+  +hover-link
+  cursor: pointer
+  font-weight: bold
+
+hr
+  border: 0
+  height: 0
+  margin: 0
+  +trailing-border(1px, 0.25)
+  +trailer(0.25)
+
+%mock-link
+  +hover-link
+  cursor: pointer
+  font-weight: bold
+
+.mock-link
+  @extend %mock-link
+
+.mock-link-small
+  @extend %mock-link
+  +adjust-font-size-to(11px)
+  font-weight: normal
+
+.big
+  font-size: 125%
+
+input::-webkit-input-placeholder
+  color: grey(80)
+  font-style: italics
+
+input:-moz-placeholder
+  /* Firefox 18-
+  color: grey(80)
+  font-style: italics
+
+input::-moz-placeholder
+  /* Firefox 19+
+  color: grey(80)
+  font-style: italics
+
+input:-ms-input-placeholder
+  color: grey(80)
+  font-style: italics
+
+h1,h2,h3,h4,h5,h6
+  font-weight: bold
+  color: grey(30)
+  text-rendering: optimizeLegibility
+
+// For reference, the following is the traditional typographic hierarchy.
+// 6, 7, 8, 9, 10, 11, 12, 14, 16, 18, 21, 24, 36, 48, 60, 72
+// Ref. http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography-part-4
+
+// If you'd like to change the size of headers, move all of the following either
+// up or down the hierarchy.
+h1
+  +adjust-font-size-to(24px)
+
+h2
+  +adjust-font-size-to(21px, 2)
+  +leader(0)
+  +trailer(0.5, 21px)
+
+h3
+  +adjust-font-size-to(18px)
+  +leader(1, 18px)
+  +trailer(1, 18px)
+
+h4
+  +adjust-font-size-to(16px, 1)
+  +trailer(0.5, 16px)
+  +leader(0)
+
+h5
+  +adjust-font-size-to(14px, 1)
+
+h6
+  +adjust-font-size-to(12px, 1)
+
+.grey-text
+  color: grey(60)
+
+=monospace
+  font-family: Inconsolata, Consolas, 'Liberation Mono', Courier, monospace
+
+code, pre, .code
+  +monospace
+  &.set-off
+    +apply-side-rhythm-border("left", 1px, 0.25)
+    +apply-side-rhythm-border("right", 1px, 0.25)
+    +apply-side-rhythm-border("top", 1px, 0.125)
+    +apply-side-rhythm-border("bottom", 1px, 0.125)
+    +trailer(0.25)
+    background: grey(90)
+    border-color: grey(70)
+    display: inline-block
+
+blockquote
+  padding: 0
+  padding-left: 14px
+  border-left: 4px grey(80) solid
+  margin: 0 18px
