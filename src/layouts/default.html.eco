@@ -34,7 +34,7 @@
   </div>
   <div class="tabs">
     <ul>
-      <li><a href="/erick-chuy-accounting">Home</a></li>
+      <li class="home-link"><a href="/erick-chuy-accounting">Home</a></li>
       <li><a href="/erick-chuy-accounting/about-erick">About Erick</a></li>
       <li><a href="/erick-chuy-accounting/services">Services</a></li>
       <li><a href="/erick-chuy-accounting/contact">Contact</a></li>

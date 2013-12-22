@@ -33,6 +33,10 @@ html
       +adjust-font-size-to(16px)
       font-weight: bold
       margin-right: rhythm(1, 16px)
+      &.home-link
+        @media screen and (max-width: 51.65em)
+          display: none
+
 
 a
   +link-colors(grey(40))
